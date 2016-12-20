@@ -1,2 +1,2 @@
-# ctecapoeiragem
-Demonstração do site oficial do CTE Capoeiragem
+# CTE Capoeiragem
+Demonstração do site oficial do CTE Capoeiragem.
