@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width:720px) {
-   .where-container {width: 360px;}
+   .where-container {width: 100%;}
   .where-unit {width: 100%;}
 }
 
