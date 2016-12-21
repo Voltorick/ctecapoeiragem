@@ -1,0 +1,86 @@
+form {
+  max-width: 450px;
+  margin: 0 auto 100px;
+  padding :0 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  border: 3px solid #343a38;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-size: 16px;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #888;
+}
+
+form textarea {
+  height: 10em;
+  resize: none;
+}
+
+form .submit-wrap {
+  text-align: right;
+}
+
+form [type="submit"] {
+  background: #343a38;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 33%;
+  border: none;
+}
+
+form [type="submit"]:hover {
+  background: #1779b1;
+}
+
+form label spam {
+  display: block;
+}
+
+form .contact-info-group label {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+form .contact-info-group :nth-child(1) {
+  padding-right: 10px;
+}
+
+form .contact-info-group :nth-child(2) {
+  padding-left: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 541px) {
+  form .contact-info-group label {
+    width: 100%
+  }
+
+  form .contact-info-group label:nth-child(1) {
+    padding: 0;
+  }
+
+  form .contact-info-group label:nth-child(2) {
+    padding: 0;
+  }
+
+  form .contact-info-group [type="submit"] {
+    width: 100%;
+  }
+}

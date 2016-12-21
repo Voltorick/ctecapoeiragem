@@ -1,0 +1,34 @@
+footer {
+  background-color: #1779b1;
+  color: #fff;
+  padding: 15px;
+  margin: 0;
+  background: #1779b1 url("https://se0nea.bn1301.livefilestore.com/y3pMrttlUHCgIiqr4KKlxHwSwnpnJPjhosxQrnN-sVewj0FaDsORbCrp1PHE9g7KyR-6K07RJkjerVBfvRKkq4IdbUOOWAzeuSb9S-P2PQ3ILnmPDrvkvz_-d13CFEKShlrBH8hOrmTFmw-_Qay91drA0C2vWfSS9A_06PLG5F9bqI/Sport%20Brazil.png?psid=1") no-repeat right center;
+  /*
+ https://static.wixstatic.com/media/cd475e_434313dc3237a1193866016b2f2356b8.jpg/v1/fill/w_388,h_200,al_c,q_80,usm_0.66_1.00_0.01/cd475e_434313dc3237a1193866016b2f2356b8.webp
+  */
+  background-size: contain;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  //font-weight: bold;
+  //float: left;
+}
+
+footer img {
+  //float: right;
+  height: 50px;
+}
+
+footer:before,
+footer:after {
+    content: " ";
+    display: table;
+}
+
+footer:after,
+#where:after {
+    clear: both;
+}

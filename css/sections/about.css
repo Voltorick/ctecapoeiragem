@@ -1,0 +1,16 @@
+.about-container {
+  margin: 0 auto;
+  //text-align: center;
+  display: flex;
+}
+
+.about-block {
+  width: 25%;
+  display: block;
+  overflow: hidden;
+}
+
+#about p {
+  color: #999;
+  margin: 0 0 3.5rem;
+}

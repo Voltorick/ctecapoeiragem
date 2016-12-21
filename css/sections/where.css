@@ -1,0 +1,98 @@
+.where-container:before,
+.where-container:after,
+#where:before,
+#where:after {
+    content: " ";
+    display: table;
+}
+
+.where-container:after,
+#where:after {
+    clear: both;
+}
+
+.where-container {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+.where-unit {
+  width: 33.33333333%;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  margin-bottom: -6px;
+}
+
+/*.where-unit img {
+  width: 360px;
+  height: 260px;
+}*/
+
+@media screen and (max-width:1080px) {
+   .where-container {width: 720px;}
+  .where-unit {width: 50%;}
+}
+
+@media screen and (max-width:720px) {
+   .where-container {width: 360px;}
+  .where-unit {width: 100%;}
+}
+
+#where .caption {
+    background: rgba(23,121,177,.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+#where .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#where .caption:hover {
+    opacity: 1
+}
+
+#where .flag-item {
+    margin: 0 0 25px;
+    right: 0
+}
+
+#where .caption .caption-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    //text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+
+.social-links {
+  max-width: 700px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-around;
+  text-align:center;
+}
+
+.social-links a {
+  background: #343a38;
+  display: block;
+  border: 2px solid #343a38;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  color: #fff;
+  border-radius:50%;
+  font-size: 28px;
+  margin: 20px;
+  position: relative;
+  font-family: FontAwesome;
+}

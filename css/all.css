@@ -1,0 +1,123 @@
+@import url('base/font-awesome-4.7.0/css/font-awesome.min.css');
+@import url('base/_base-dir.css');
+@import url('sections/_sections-dir.css');
+:root {
+  --background-op: none repeat scroll 0 0 rgba(0, 30, 34, 0.5);
+  --text-color: #343838;
+  --link-color: ;
+  --background-1: #fff;
+  --background-2: rgb(0, 30, 34);
+  --blue: #2fcbe0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*/body {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden
+}
+
+section:nth-child(even), section:nth-child(even) hr, section:nth-child(even) hr:after {
+  //background-color: #f1f1f1;
+  background-color: #1779b1;
+  color: #fff;
+}
+
+section:nth-child(odd), section:nth-child(odd) hr, section:nth-child(odd) hr:after {
+  //background-color: #f1f1f1;
+  background-color: #fff;
+  color: #343a38;
+}
+
+
+
+
+
+
+h3 {
+  //text-align: center;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+section {
+  padding: 100px 30px;
+  text-align: center;
+}
+
+/*section:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}*/
+
+.img-circle {
+  border: 1px solid #333;
+  border-radius: 50%;
+}
+
+
+
+
+
+hr.star,
+hr.globe,
+hr.hand,
+hr.graduation,
+hr.contact,
+hr.ong {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+
+hr:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  font-size: 2em;
+  padding: 0 .25em;
+  background-color: #fff;
+  color: #000;
+}
+
+hr.globe::after     { content: "\f0ac"; }
+hr.hand:after       { content: "\f2b5"; }
+hr.graduation:after { content: "\f19d"; }
+hr.contact:after    { content: "\f1d8"; }
+hr.ong:after        { content: "\f004"; }
+hr.star:after       { content: "\f005"; }
+
+
+
+
+p.desc {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+.icon-twitter:before   { content: "\f099"; }
+.icon-facebook:before  { content: "\f09a"; }
+.icon-instagram:before { content: "\f16d"; }
